@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import Layout from '@/components/layout/Layout';
 import { 
@@ -21,7 +20,7 @@ import { Label } from '@/components/ui/label';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Slider } from '@/components/ui/slider';
-import { toast } from "@/components/ui/sonner";
+import { toast } from "sonner";
 
 const PropertyValuation = () => {
   const [propertyType, setPropertyType] = useState('residential');
